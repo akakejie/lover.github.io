@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+p {
+    font-size: 4px; /* Small font size for the text effect */
+    line-height: 4px; /* Matches the font size for tight spacing */
+    text-align: justify;
+    background-size: cover; /* Ensures the image covers the entire text */
+    background-image: url("us.jpg");
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the background */
+}
