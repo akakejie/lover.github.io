@@ -9,7 +9,7 @@ p {
     line-height: 4px; /* Matches the font size for tight spacing */
     text-align: justify;
     background-size: cover; /* Ensures the image covers the entire text */
-    background-image: url("us.jpg");
+    background-image: url("mahal.jpg");
     -webkit-background-clip: text; /* Clips the background to the text */
     -webkit-text-fill-color: transparent; /* Makes the text transparent to show the background */
 }
